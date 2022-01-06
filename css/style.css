@@ -1,7 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: 'Khula', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
 
 .container {
     margin: auto;
     max-width: 90%;
+}
+
+.screen {
+    padding: 10px;
+    height: 100vh;
+    width: 100%;
+    transition: margin 0.5s ease-out;
+    background: linear-gradient(90deg, #6ea9ec 0%, #0e66c4 100%);
+}
+  
+.screen.up {
+    margin-top: -100vh;
+}
+
+.screen.doubleUp {
+    margin-top: -200vh;
+    transform: rotateY(180deg);
+}
+
+.screen.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-options {
+    display: none;
 }
 
 .body-title {
@@ -14,3 +54,45 @@
     padding: 10px 25px;
     align-items: center;
 }
+
+.card-title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.card-body {
+    text-align: center;
+}
+
+select {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.time-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .time-list li {
+    margin: 10px;
+  }
+  
+  .time-btn {
+    background-color: transparent;
+    border: 2px solid #C0C0C0;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .time-btn:hover {
+    border: 2px solid #16D9E3;
+    color: #16D9E3;
+  }
