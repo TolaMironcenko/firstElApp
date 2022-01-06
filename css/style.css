@@ -1,0 +1,16 @@
+
+.container {
+    margin: auto;
+    max-width: 90%;
+}
+
+.body-title {
+    text-align: center;
+}
+
+.card {
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgb(41, 4, 4);
+    padding: 10px 25px;
+    align-items: center;
+}
