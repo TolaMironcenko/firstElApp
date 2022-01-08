@@ -11,5 +11,5 @@ xhttp.open("GET", "https://timetable.tusur.ru/api/v2/raspisanie_vuzov", true);
 xhttp.send();
 
 function myFunction (data) {
-    console.log(data)
+    console.log(JSON.parse(data))
 }
