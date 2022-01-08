@@ -2,6 +2,7 @@
 
 // Modules to control application life and create native browser window
 const { app, BrowserWindow, Tray } = require('electron')
+const { url } = require('inspector')
 const path = require('path')
 
 const createWindow = () => {
