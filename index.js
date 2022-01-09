@@ -12,7 +12,7 @@ const createWindow = () => {
     height: 600,
     icon: __dirname + 'icons/icon.png',
     webPreferences: {
-      nodeIntegration: true,
+      
     }
   })
 
