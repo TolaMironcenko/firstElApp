@@ -28,11 +28,6 @@ body {
     margin-top: -100vh;
 }
 
-.screen.doubleUp {
-    margin-top: -200vh;
-    transform: rotateY(180deg);
-}
-
 .screen.center {
     display: flex;
     flex-direction: column;
